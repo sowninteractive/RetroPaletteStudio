@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--background:#0d0720;--foreground:#f5e9ff;--card:#170e33;--card-foreground:#f5e9ff;--primary:#ff2e97;--primary-foreground:#0d0720;--secondary:#7b2ff7;--secondary-foreground:#ffffff;--accent:#00f0ff;--accent-foreground:#0d0720;--muted:#241747;--muted-foreground:#b8a6d9;--border:#3d2a73;--input:#3d2a73;--ring:#00f0ff;--destructive:#ef4444;--destructive-foreground:#ffffff}
+body{margin:0;background:var(--background);color:var(--foreground);font-family:'Space Grotesk',system-ui,sans-serif;
+ background-image:linear-gradient(transparent 95%,rgba(123,47,247,.18) 95%),linear-gradient(90deg,transparent 95%,rgba(123,47,247,.18) 95%);background-size:32px 32px}
+*:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.pixelated{image-rendering:pixelated}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
